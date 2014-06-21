@@ -10,26 +10,26 @@ import java.awt.image.Raster;
 import java.util.Date;
 
 /**
- * Created by inv on 17/06/14.
+ * Created by inv on 20/06/14.
  */
-public class DWTFusion implements IImageFusion {
-
-
+public class DWT2Fusion implements IImageFusion {
     @Override
     public BufferedImage Fuse(BufferedImage msImage, BufferedImage panImage) {
-
         int w = panImage.getWidth(null);
         int h = panImage.getHeight(null);
 
-        int newW = (int) (w * 0.5f);
-        int newH = (int) (h * 0.5f);
+        int newW = (int) (w * 0.25f);
+        int newH = (int) (h * 0.25f);
 
-        WaveletUtils.ApplyDWT(panImage, 1);
+        WaveletUtils.ApplyDWT(panImage, 2);
         BufferedImage resizedMultichro = msImage;
 
-        if(msImage.getHeight() == panImage.getHeight() * 0.5
-                && msImage.getWidth() == panImage.getWidth() *0.5)
-            resizedMultichro = ImagingUtils.resizeImage(msImage, newW, newH);
+        if(msImage.getHeight() == panImage.getHeight() * 0.5f
+                && msImage.getWidth() == panImage.getWidth() * 0.5f)
+            resizedMultichro = ImagingUtils.resizeImage(msImage, (int)(panImage.getHeight() * 0.5f),
+                    (int)(panImage.getWidth() * 0.5f));
+
+        //WaveletUtils.ApplyDWT();
 
         BufferedImage resultImage = new BufferedImage(w,
                 h,BufferedImage.TYPE_INT_RGB);
@@ -59,13 +59,12 @@ public class DWTFusion implements IImageFusion {
 
             }
         }
-        WaveletUtils.ApplyInverseDWT(resultImage, 1);
+        WaveletUtils.ApplyInverseDWT(resultImage, 2);
 
         Date newNow = new Date();
 
         System.out.println("Time Taken = " + (newNow.getTime() - now.getTime()));
 
         return resultImage;
-
     }
 }

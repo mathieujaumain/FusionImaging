@@ -1,9 +1,6 @@
 package net.jaumainmathieu.fusion;
 
-import net.jaumainmathieu.fusion.methods.AverageFusion;
-import net.jaumainmathieu.fusion.methods.BroveyFusion;
-import net.jaumainmathieu.fusion.methods.MultiplicativeFusion;
-import net.jaumainmathieu.fusion.methods.SelectMaximumFusion;
+import net.jaumainmathieu.fusion.methods.*;
 
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
@@ -20,6 +17,9 @@ public class Main {
     public static final int METHOD_DWT = 2;
     public static final int METHOD_MULTIPLICATIVE = 3;
     public static final int METHOD_BROVEY = 4;
+    public static final int METHOD_STANDARD_IHS = 5;
+    public static final int METHOD_IHS_DWT = 6;
+    public static final int METHOD_DWT_2  = 7;
 
     public static  void main(String[] args){
 
@@ -28,21 +28,31 @@ public class Main {
 
         String image1Path;
         String image2Path;
+        String resultPath;
         int fusionMethod;
 
 
-        if(args.length != 3){
+        if(args.length != 4){
 
-            System.out.println("Usage : ImageFusion <pathToImage1> <pathToImage2> <FusionMethod>\n" +
-                               "Method :\n 0 = Average fusion");
+            System.out.println("Usage : FusionProgram.jar <pathToMultiChroma> <pathToPanChroma> <OutputImage> <FusionMethod>\n" +
+                                "Methods : \n"+
+                                " 0 = Average method\n" +
+                                " 1 = Select Max method\n" +
+                                " 2 = Discreet Wavelet Transform + averaging method\n" +
+                                " 3 = Multiplicative method\n" +
+                                " 4 = Brovey method\n" +
+                                " 5 = Standard IHS method\n" +
+                                " 6 = IHS + DWT method\n");
             return;
         }
 
         image1Path = args[0];
         image2Path = args[1];
-        fusionMethod = Integer.parseInt(args[2]);
+        resultPath = args[2];
+        fusionMethod = Integer.parseInt(args[3]);
         File file1 = new File(image1Path);
         File file2 = new File(image2Path);
+
 
         try {
             multiSpectra = ImageIO.read(file1);
@@ -67,8 +77,24 @@ public class Main {
                 fusion = new MultiplicativeFusion();
                 break;
 
+            case METHOD_DWT:
+                fusion = new DWTFusion();
+                break;
+
             case METHOD_BROVEY:
                 fusion = new BroveyFusion();
+                break;
+
+            case METHOD_STANDARD_IHS:
+                fusion = new StandardIHSFusion();
+                break;
+
+            case METHOD_IHS_DWT:
+                fusion = new IHS_DWT_Fusion();
+                break;
+
+            case METHOD_DWT_2:
+                fusion = new DWT2Fusion();
                 break;
 
             default:
@@ -79,37 +105,13 @@ public class Main {
         if(fusion != null){
             result = fusion.Fuse(multiSpectra, panchro);
         }
-        /*
-        BufferedImage result = ImagingUtils.toGreyScale(panchro);
 
-        File out = new File("grey 1.png");
+        File out = new File(resultPath);
         try {
             ImageIO.write(result, "png", out);
         } catch (IOException e) {
             System.out.println("Error writing file.");
             e.printStackTrace();
         }
-
-
-        result = ImagingUtils.toGreyScale(result);
-
-        out = new File("grey 2.png");
-        try {
-            ImageIO.write(result, "png", out);
-        } catch (IOException e) {
-            System.out.println("Error writing file.");
-            e.printStackTrace();
-        }*/
-
-
-        File out = new File("fused.png");
-        try {
-            ImageIO.write(result, "png", out);
-        } catch (IOException e) {
-            System.out.println("Error writing file.");
-            e.printStackTrace();
-        }
-
-
     }
 }

@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="FusionProgram:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="3f6fa299-dace-42a6-8866-216eea41a42b" name="Default" comment="" />
     <ignored path="FusionProgram.iws" />
@@ -71,6 +76,51 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/net/jaumainmathieu/fusion/methods/BroveyFusion.java" line="49" class="net.jaumainmathieu.fusion.methods.BroveyFusion" package="net.jaumainmathieu.fusion.methods">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/net/jaumainmathieu/fusion/methods/IHS_DWT_Fusion.java" line="103" class="net.jaumainmathieu.fusion.methods.IHS_DWT_Fusion" package="net.jaumainmathieu.fusion.methods">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/net/jaumainmathieu/fusion/methods/IHS_DWT_Fusion.java" line="95" class="net.jaumainmathieu.fusion.methods.IHS_DWT_Fusion" package="net.jaumainmathieu.fusion.methods">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
     </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
@@ -81,77 +131,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MultiplicativeFusion.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/net/jaumainmathieu/fusion/methods/MultiplicativeFusion.java">
+      <file leaf-file-name="StandardIHSFusion.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/net/jaumainmathieu/fusion/methods/StandardIHSFusion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="33" selection-start="792" selection-end="792" vertical-scroll-proportion="0.0" vertical-offset="507" max-vertical-offset="1008">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BroveyFusion.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/net/jaumainmathieu/fusion/methods/BroveyFusion.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="0" selection-start="865" selection-end="865" vertical-scroll-proportion="0.0" vertical-offset="427" max-vertical-offset="976">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WaveletTransform.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/net/jaumainmathieu/fusion/WaveletTransform.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="21" selection-start="165" selection-end="165" vertical-scroll-proportion="0.38670695" vertical-offset="0" max-vertical-offset="368">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DWTFusion.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/net/jaumainmathieu/fusion/methods/DWTFusion.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="13" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="336">
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ImagingUtils.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/net/jaumainmathieu/fusion/ImagingUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="44" selection-start="469" selection-end="469" vertical-scroll-proportion="0.0" vertical-offset="96" max-vertical-offset="672">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BufferedImage.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.7.0_51/src.zip!/java/awt/image/BufferedImage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1017" column="21" selection-start="41412" selection-end="41412" vertical-scroll-proportion="0.0" vertical-offset="16272" max-vertical-offset="26320">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WritableRaster.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.7.0_51/src.zip!/java/awt/image/WritableRaster.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="282" column="13" selection-start="12947" selection-end="12947" vertical-scroll-proportion="0.0" vertical-offset="4512" max-vertical-offset="11952">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SelectMaximumFusion.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/net/jaumainmathieu/fusion/methods/SelectMaximumFusion.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="30" selection-start="346" selection-end="391" vertical-scroll-proportion="0.0" vertical-offset="342" max-vertical-offset="816">
+            <state line="53" column="0" selection-start="1727" selection-end="1727" vertical-scroll-proportion="0.78077376" vertical-offset="86" max-vertical-offset="960">
               <folding />
             </state>
           </provider>
@@ -180,18 +163,27 @@
         <option value="$PROJECT_DIR$/src/net/jaumainmathieu/fusion/MultiplicativeFusion.java" />
         <option value="$PROJECT_DIR$/src/net/jaumainmathieu/fusion/DWTFusion.java" />
         <option value="$PROJECT_DIR$/src/net/jaumainmathieu/fusion/BroveyFusion.java" />
-        <option value="$PROJECT_DIR$/src/net/jaumainmathieu/fusion/ImagingUtils.java" />
-        <option value="$PROJECT_DIR$/src/net/jaumainmathieu/fusion/Main.java" />
-        <option value="$PROJECT_DIR$/src/net/jaumainmathieu/fusion/methods/BroveyFusion.java" />
         <option value="$PROJECT_DIR$/src/net/jaumainmathieu/fusion/WaveletTransform.java" />
+        <option value="$PROJECT_DIR$/src/net/jaumainmathieu/fusion/methods/DWTFusion.java" />
+        <option value="$PROJECT_DIR$/src/net/jaumainmathieu/fusion/methods/AverageFusion.java" />
+        <option value="$PROJECT_DIR$/src/net/jaumainmathieu/fusion/ImagingUtils.java" />
+        <option value="$PROJECT_DIR$/src/net/jaumainmathieu/fusion/methods/BroveyFusion.java" />
+        <option value="$PROJECT_DIR$/src/net/jaumainmathieu/fusion/methods/DWTFusion2.java" />
+        <option value="$PROJECT_DIR$/src/net/jaumainmathieu/fusion/methods/IHSDWTFusion2.java" />
+        <option value="$PROJECT_DIR$/src/net/jaumainmathieu/fusion/WaveletUtils.java" />
+        <option value="$PROJECT_DIR$/src/net/jaumainmathieu/fusion/methods/IHS_DWT_Fusion.java" />
+        <option value="$PROJECT_DIR$/src/net/jaumainmathieu/fusion/Main.java" />
+        <option value="$PROJECT_DIR$/src/net/jaumainmathieu/fusion/methods/DWT2Fusion.java" />
+        <option value="$PROJECT_DIR$/src/net/jaumainmathieu/fusion/methods/SelectMaximumFusion.java" />
+        <option value="$PROJECT_DIR$/src/net/jaumainmathieu/fusion/methods/StandardIHSFusion.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-4" />
     <option name="y" value="-4" />
-    <option name="width" value="1288" />
-    <option name="height" value="746" />
+    <option name="width" value="1688" />
+    <option name="height" value="1028" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -219,6 +211,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -277,10 +271,26 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FusionProgram" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FusionProgram" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="META-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -296,6 +306,10 @@
     <property name="restartRequiresConfirmation" value="true" />
     <property name="dynamic.classpath" value="false" />
     <property name="FullScreen" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -303,7 +317,7 @@
       <recent name="net.jaumainmathieu.fusion.methods" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test Brovey">
+  <component name="RunManager" selected="Application.test select Max">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin" singleton="true">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -338,19 +352,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -376,6 +377,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -434,7 +448,7 @@
     <configuration default="false" name="test average" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="net.jaumainmathieu.fusion.Main" />
       <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="C:\Onvif_generation\images\day.png  C:\Onvif_generation\images\ir.png  0" />
+      <option name="PROGRAM_PARAMETERS" value="C:\Onvif_generation\images\day.png  C:\Onvif_generation\images\ir.png fused.png  0" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
@@ -456,7 +470,7 @@
     <configuration default="false" name="test select Max" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="net.jaumainmathieu.fusion.Main" />
       <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="C:\Onvif_generation\images\day.png  C:\Onvif_generation\images\ir.png  1" />
+      <option name="PROGRAM_PARAMETERS" value="C:\Onvif_generation\images\day.png  C:\Onvif_generation\images\ir.png fused.png 1" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
@@ -472,7 +486,7 @@
     <configuration default="false" name="test multiplicative" type="Application" factoryName="Application" editBeforeRun="true">
       <option name="MAIN_CLASS_NAME" value="net.jaumainmathieu.fusion.Main" />
       <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="C:\Onvif_generation\images\day.png  C:\Onvif_generation\images\ir.png  3" />
+      <option name="PROGRAM_PARAMETERS" value="C:\Onvif_generation\images\day.png  C:\Onvif_generation\images\ir.png fused.png  3" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
@@ -488,7 +502,7 @@
     <configuration default="false" name="Test Brovey" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="net.jaumainmathieu.fusion.Main" />
       <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="C:\Onvif_generation\images\day.png  C:\Onvif_generation\images\ir.png  4" />
+      <option name="PROGRAM_PARAMETERS" value="C:\Onvif_generation\images\day.png  C:\Onvif_generation\images\ir.png fused.png  4" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
@@ -507,11 +521,83 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <list size="4">
+    <configuration default="false" name="test DWT1" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="net.jaumainmathieu.fusion.Main" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="C:\Onvif_generation\images\day_tiny.png  C:\Onvif_generation\images\ir.png fused.png  2" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="FusionProgram" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="test IHS" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="net.jaumainmathieu.fusion.Main" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="C:\Onvif_generation\images\day.png  C:\Onvif_generation\images\ir.png fused.png  5" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="FusionProgram" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="test DWT 2" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="net.jaumainmathieu.fusion.Main" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="C:\Onvif_generation\images\day.png  C:\Onvif_generation\images\ir.png fused.png  7" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="FusionProgram" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="test DWT IHS" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="net.jaumainmathieu.fusion.Main" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="C:\Onvif_generation\images\day.png  C:\Onvif_generation\images\ir.png fused.png  6" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="FusionProgram" />
+      <envs />
+      <method />
+    </configuration>
+    <list size="8">
       <item index="0" class="java.lang.String" itemvalue="Application.test average" />
       <item index="1" class="java.lang.String" itemvalue="Application.test select Max" />
       <item index="2" class="java.lang.String" itemvalue="Application.test multiplicative" />
       <item index="3" class="java.lang.String" itemvalue="Application.Test Brovey" />
+      <item index="4" class="java.lang.String" itemvalue="Application.test DWT1" />
+      <item index="5" class="java.lang.String" itemvalue="Application.test IHS" />
+      <item index="6" class="java.lang.String" itemvalue="Application.test DWT 2" />
+      <item index="7" class="java.lang.String" itemvalue="Application.test DWT IHS" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -528,7 +614,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1288" height="746" extended-state="6" />
+    <frame x="-4" y="-4" width="1688" height="1028" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -537,23 +623,23 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30252102" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30216646" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2713797" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18416801" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3210084" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16483517" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2713797" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -577,6 +663,64 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/net/jaumainmathieu/fusion/methods/SelectMaximumFusion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="30" selection-start="346" selection-end="391" vertical-scroll-proportion="0.0" vertical-offset="256" max-vertical-offset="816">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/jaumainmathieu/fusion/methods/MultiplicativeFusion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="33" selection-start="792" selection-end="792" vertical-scroll-proportion="0.0" vertical-offset="507" max-vertical-offset="1008">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/jaumainmathieu/fusion/methods/BroveyFusion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="0" selection-start="865" selection-end="865" vertical-scroll-proportion="0.0" vertical-offset="480" max-vertical-offset="1072">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/jaumainmathieu/fusion/methods/DWTFusion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="13" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="368">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/jaumainmathieu/fusion/ImagingUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="44" selection-start="469" selection-end="469" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="704">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_51/src.zip!/java/awt/image/BufferedImage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1017" column="21" selection-start="41412" selection-end="41412" vertical-scroll-proportion="0.0" vertical-offset="16272" max-vertical-offset="26320">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_51/src.zip!/java/awt/image/WritableRaster.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="282" column="13" selection-start="12947" selection-end="12947" vertical-scroll-proportion="0.0" vertical-offset="4512" max-vertical-offset="11952" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/jaumainmathieu/fusion/methods/SelectMaximumFusion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="30" selection-start="346" selection-end="391" vertical-scroll-proportion="0.0" vertical-offset="342" max-vertical-offset="816">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/net/jaumainmathieu/fusion/methods/MultiplicativeFusion.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="33" selection-start="792" selection-end="792" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1008">
@@ -594,18 +738,14 @@
     <entry file="file://$PROJECT_DIR$/src/net/jaumainmathieu/fusion/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="83" column="41" selection-start="2372" selection-end="2372" vertical-scroll-proportion="0.0" vertical-offset="1328" max-vertical-offset="1584">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/net/jaumainmathieu/fusion/methods/DWTFusion.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="0" selection-start="342" selection-end="342" vertical-scroll-proportion="0.0" vertical-offset="32" max-vertical-offset="368">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -625,15 +765,15 @@
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_51/src.zip!/java/awt/image/WritableRaster.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="282" column="13" selection-start="12947" selection-end="12947" vertical-scroll-proportion="0.0" vertical-offset="4512" max-vertical-offset="11952">
-          <folding />
-        </state>
+        <state line="282" column="13" selection-start="12947" selection-end="12947" vertical-scroll-proportion="0.0" vertical-offset="4512" max-vertical-offset="11952" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/net/jaumainmathieu/fusion/methods/SelectMaximumFusion.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="30" selection-start="346" selection-end="391" vertical-scroll-proportion="0.0" vertical-offset="342" max-vertical-offset="816">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -654,33 +794,29 @@
     <entry file="file://$PROJECT_DIR$/src/net/jaumainmathieu/fusion/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="58" column="40" selection-start="1506" selection-end="1506" vertical-scroll-proportion="0.0" vertical-offset="810" max-vertical-offset="1376">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/net/jaumainmathieu/fusion/methods/DWTFusion.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="0" selection-start="268" selection-end="268" vertical-scroll-proportion="0.0" vertical-offset="224" max-vertical-offset="320">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/net/jaumainmathieu/fusion/methods/SelectMaximumFusion.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="0" selection-start="807" selection-end="807" vertical-scroll-proportion="0.0" vertical-offset="48" max-vertical-offset="832">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_51/src.zip!/javax/imageio/ImageIO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1295" column="32" selection-start="45708" selection-end="45708" vertical-scroll-proportion="0.0" vertical-offset="20720" max-vertical-offset="26000">
-          <folding />
-        </state>
+        <state line="1295" column="32" selection-start="45708" selection-end="45708" vertical-scroll-proportion="0.0" vertical-offset="20720" max-vertical-offset="26000" />
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_51/src.zip!/java/awt/image/Raster.java">
@@ -707,27 +843,13 @@
     <entry file="file://$PROJECT_DIR$/src/net/jaumainmathieu/fusion/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="39" column="14" selection-start="941" selection-end="941" vertical-scroll-proportion="0.0" vertical-offset="324" max-vertical-offset="864">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_51/src.zip!/java/awt/image/Raster.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="131" column="20" selection-start="5388" selection-end="5388" vertical-scroll-proportion="0.0" vertical-offset="2096" max-vertical-offset="28480">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_51/src.zip!/java/awt/Image.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="37" selection-start="2172" selection-end="2172" vertical-scroll-proportion="0.0" vertical-offset="503" max-vertical-offset="5232" />
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_51/src.zip!/java/awt/Color.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="367" column="11" selection-start="10438" selection-end="10438" vertical-scroll-proportion="0.0" vertical-offset="5134" max-vertical-offset="19536">
           <folding />
         </state>
       </provider>
@@ -739,37 +861,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/jaumainmathieu/fusion/methods/AverageFusion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="9" selection-start="726" selection-end="1459" vertical-scroll-proportion="0.0" vertical-offset="528" max-vertical-offset="976">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_51/src.zip!/java/awt/image/WritableRaster.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="282" column="13" selection-start="12947" selection-end="12947" vertical-scroll-proportion="0.0" vertical-offset="3838" max-vertical-offset="11408">
-          <folding />
-        </state>
+        <state line="282" column="13" selection-start="12947" selection-end="12947" vertical-scroll-proportion="0.0" vertical-offset="3838" max-vertical-offset="11408" />
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_51/src.zip!/java/awt/image/SampleModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="80" column="22" selection-start="3048" selection-end="3048" vertical-scroll-proportion="0.33333334" vertical-offset="633" max-vertical-offset="23520" />
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_51/src.zip!/javax/imageio/ImageIO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1295" column="32" selection-start="45708" selection-end="45708" vertical-scroll-proportion="-2.8837209" vertical-offset="20720" max-vertical-offset="25008">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/jaumainmathieu/fusion/methods/SelectMaximumFusion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="30" selection-start="346" selection-end="391" vertical-scroll-proportion="0.0" vertical-offset="342" max-vertical-offset="816">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_51/src.zip!/java/awt/image/Raster.java">
@@ -786,54 +885,218 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_51/src.zip!/java/awt/image/ReplicateScaleFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="13" selection-start="1167" selection-end="1167" vertical-scroll-proportion="-3.9812734" vertical-offset="1447" max-vertical-offset="3760" />
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_51/src.zip!/java/awt/Graphics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="920" column="28" selection-start="42513" selection-end="42513" vertical-scroll-proportion="1.2755905" vertical-offset="13964" max-vertical-offset="19760" />
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_51/src.zip!/java/awt/image/AreaAveragingScaleFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="48" selection-start="1774" selection-end="1774" vertical-scroll-proportion="0.09363296" vertical-offset="503" max-vertical-offset="4176" />
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_51/src.zip!/java/awt/Image.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="170" column="35" selection-start="6345" selection-end="6345" vertical-scroll-proportion="0.5131086" vertical-offset="2103" max-vertical-offset="5232" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="288" />
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_51/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="489" column="30" selection-start="19310" selection-end="19310" vertical-scroll-proportion="0.33239436" vertical-offset="7050" max-vertical-offset="18816" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/net/jaumainmathieu/fusion/methods/MultiplicativeFusion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="33" selection-start="792" selection-end="792" vertical-scroll-proportion="0.0" vertical-offset="507" max-vertical-offset="1008">
+        <state line="18" column="67" selection-start="456" selection-end="456" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="928">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/jaumainmathieu/fusion/methods/AverageFusion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="27" selection-start="1404" selection-end="1404" vertical-scroll-proportion="0.0" vertical-offset="59" max-vertical-offset="912">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/jaumainmathieu/fusion/methods/BroveyFusion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="0" selection-start="1618" selection-end="1618" vertical-scroll-proportion="0.0" vertical-offset="454" max-vertical-offset="1040">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/net/jaumainmathieu/fusion/ImagingUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="44" selection-start="469" selection-end="469" vertical-scroll-proportion="0.0" vertical-offset="96" max-vertical-offset="672">
+        <state line="57" column="25" selection-start="1705" selection-end="1705" vertical-scroll-proportion="0.0" vertical-offset="557" max-vertical-offset="1264">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/jaumainmathieu/fusion/WaveletUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="200" column="16" selection-start="5469" selection-end="5469" vertical-scroll-proportion="0.0" vertical-offset="3942" max-vertical-offset="4528">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_51/src.zip!/java/awt/Color.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="961" column="24" selection-start="33440" selection-end="33440" vertical-scroll-proportion="0.74232084" vertical-offset="14477" max-vertical-offset="19536">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/net/jaumainmathieu/fusion/methods/DWTFusion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="336">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/jaumainmathieu/fusion/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="0" selection-start="2159" selection-end="2159" vertical-scroll-proportion="0.33139536" vertical-offset="1150" max-vertical-offset="1936">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/jaumainmathieu/fusion/methods/BroveyFusion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="0" selection-start="865" selection-end="865" vertical-scroll-proportion="0.0" vertical-offset="427" max-vertical-offset="976">
+        <state line="67" column="27" selection-start="488" selection-end="2011" vertical-scroll-proportion="0.0" vertical-offset="443" max-vertical-offset="1120">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/jaumainmathieu/fusion/WaveletTransform.java">
+    <entry file="file://$PROJECT_DIR$/src/net/jaumainmathieu/fusion/methods/IHS_DWT_Fusion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="21" selection-start="165" selection-end="165" vertical-scroll-proportion="0.38670695" vertical-offset="0" max-vertical-offset="368">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1776">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/jaumainmathieu/fusion/methods/DWT2Fusion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="21" selection-start="886" selection-end="886" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="1216">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_51/src.zip!/javax/imageio/ImageIO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1300" column="0" selection-start="45883" selection-end="45883" vertical-scroll-proportion="0.0" vertical-offset="18989" max-vertical-offset="25008" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/jaumainmathieu/fusion/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="0" selection-start="2385" selection-end="2385" vertical-scroll-proportion="0.0" vertical-offset="689" max-vertical-offset="1888">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/jaumainmathieu/fusion/methods/SelectMaximumFusion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="53" selection-start="1450" selection-end="1450" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1152">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/jaumainmathieu/fusion/methods/StandardIHSFusion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="0" selection-start="1727" selection-end="1727" vertical-scroll-proportion="0.78077376" vertical-offset="86" max-vertical-offset="960">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>FusionProgram:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>FusionProgram</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
 

@@ -8,9 +8,7 @@ import java.awt.image.BufferedImage;
 import java.awt.image.Raster;
 import java.util.Date;
 
-/**
- * Created by inv on 18/06/14.
- */
+
 public class BroveyFusion implements IImageFusion {
     @Override
     public BufferedImage Fuse(BufferedImage msImage, BufferedImage panImage) {
@@ -35,17 +33,23 @@ public class BroveyFusion implements IImageFusion {
                 int[] pixelPan = new int[3];
                 rasterMs.getPixel(i,j, pixelMs);
                 rasterPan.getPixel(i,j, pixelPan);
-                int[] pixelResult = new int[3];
+                float[] pixelResult = new float[3];
 
-                float sum = pixelMs[0] + pixelMs[1] + pixelMs[2];
+                float sum = (pixelMs[0] + pixelMs[1] + pixelMs[2]) / 255;
 
 
-                int pan = pixelPan[0] / 255;
+                float pan = pixelPan[0] / 255;
 
-                pixelResult[0] = (int) (pixelMs[0] / sum * pan * 255);
-                pixelResult[1] = (int) (pixelMs[1] / sum * pan * 255);
-                pixelResult[2] = (int) (pixelMs[2] / sum * pan * 255);
-                color = new Color(pixelResult[0], pixelResult[1], pixelResult[2]);
+                pixelResult[0] =  (pixelMs[0]/255 / sum * pan);
+                pixelResult[1] =  (pixelMs[1]/255 / sum * pan);
+                pixelResult[2] =  (pixelMs[2]/255 / sum * pan);
+
+                try {
+                    color = new Color(pixelResult[0], pixelResult[1], pixelResult[2]);
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+
 
                 //Finally set the image's new pixel
                 resultImage.setRGB(i, j, color.getRGB());

@@ -1,6 +1,7 @@
 package net.jaumainmathieu.fusion.methods;
 
 import net.jaumainmathieu.fusion.IImageFusion;
+import net.jaumainmathieu.fusion.ImagingUtils;
 
 import java.awt.*;
 import java.awt.image.BufferedImage;
@@ -8,11 +9,9 @@ import java.awt.image.Raster;
 import java.util.Date;
 
 /**
- * Images must be of the exact same size !!!
+ * Created by inv on 19/06/14.
  */
-public class AverageFusion implements IImageFusion {
-
-
+public class StandardIHSFusion implements IImageFusion {
     @Override
     public BufferedImage Fuse(BufferedImage msImage, BufferedImage panImage) {
 
@@ -23,6 +22,10 @@ public class AverageFusion implements IImageFusion {
                 h,BufferedImage.TYPE_INT_RGB);
         Raster raster1 = msImage.getData();
         resultImage.setData(raster1);
+        ImagingUtils.toGreyScale(panImage);
+
+        // Convert RGB en IHS (see "The IHS Transformations Based Image Fusion",
+        // Firouz Abdullah Al-Wassai, N.V. Kalyankar, Ali A. Al-Zuky
 
         Color color;
         Raster raster2 = panImage.getData();
@@ -31,19 +34,20 @@ public class AverageFusion implements IImageFusion {
 
             for(int i = 0; i < w; i++){
 
-                int[] pixel1 = new int[3];
-                int[] pixel2 = new int[3];
-                raster1.getPixel(i,j, pixel1);
-                raster2.getPixel(i,j, pixel2);
-                int[] pixelResult = new int[3];
-                pixelResult[0] = (int) ((pixel1[0] + pixel2[0]) * 0.5);
-                pixelResult[1] = (int) ((pixel1[1] + pixel2[1]) * 0.5);
-                pixelResult[2] = (int) ((pixel1[2] + pixel2[2]) * 0.5);
+                int[] pixel = new int[3];
+                int[] panPix = new int[3];
+                raster1.getPixel(i,j, pixel);
+                raster2.getPixel(i,j, panPix);
+                // convert to IHS
+                float[] ihsVal = ImagingUtils.ConvertRGB2IHS(pixel);
+                // Exchange the brightness value
+                ihsVal[2] = panPix[0] / 255f;
 
-                color = new Color(pixelResult[0], pixelResult[1], pixelResult[2]);
-                //Finally set the image's new pixel
+                // Unconvert
+                int colorConverted = ImagingUtils.ConvertIHS2RGB(ihsVal);
+
+                color = new Color(colorConverted);
                 resultImage.setRGB(i, j, color.getRGB());
-
             }
         }
         Date newNow = new Date();
@@ -51,6 +55,6 @@ public class AverageFusion implements IImageFusion {
         System.out.println("Time Taken = " + (newNow.getTime() - now.getTime()));
 
         return resultImage;
-    }
 
+    }
 }
